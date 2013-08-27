@@ -1,0 +1,15 @@
+MAS prj_AMud {
+
+	infrastructure: Centralised
+
+	environment: c4jason.CartagoEnvironment
+
+	agents:
+		agent1 aMud agentArchClass c4jason.CAgentArch;
+
+   classpath: 
+		"../../../lib/mysql-connector-java-5.1.7-bin.jar";
+
+	aslSourcePath:
+		"src/asl";			
+}
